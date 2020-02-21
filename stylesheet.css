@@ -1,0 +1,161 @@
+@charset "utf-8";
+<script src="https://kit.fontawesome.com/f8ebbbd852.js" crossorigin="anonymous"></script>
+
+body {
+  margin: 0;
+  color: black;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 17px;
+  border-bottom: double #696969;
+  background-color: #F08080;
+
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  padding-left: 30px;
+}
+
+a {
+  color: #333;
+  text-decoration:none;
+}
+
+.navigation * {
+  padding: 10px 23px;
+}
+
+.navigation * :hover {
+  border-bottom: 1px solid black;
+}
+
+.eye-catch {
+  height: 700px;
+  background-image: url('IMG_0056 (1).jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.eye-catch-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  opacity: 0.4;
+}
+
+.eye-catch-words {
+  color: #FA8072;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 60px;
+}
+
+.eye-catch-title {
+  font-size: 36px;
+}
+
+.eye-catch-dis {
+  font-size: 18px;
+}
+
+.explain {
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.explain-part {
+  width: 33%;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.explain i {
+  border: 1px solid #F08080;
+  border-radius: 25%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 80px;
+  color: #F08080;
+  padding: 15px;
+}
+
+.explain-title {
+  font-size: 25px;
+}
+
+.explain-des {
+  font-size: 14px;
+}
+
+.sns-title {
+  text-align: center;
+  font-size: 30px;
+  color: #F08080;
+  margin-top: 70px;
+
+}
+
+.sns {
+  width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sns i {
+  border: 1px solid #F08080;
+  border-radius: 25%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 80px;
+  color: #F08080;
+  padding: 15px;
+}
+
+.sns-part {
+  width: 33%;
+  text-align: center;
+  padding: 0 115px;
+  margin-bottom: 40px;
+  border-top: 1px solid #F08080;
+  border-bottom: 1px solid #F08080;
+}
+
+.footer {
+  text-align: center;
+
+}
+
+.footer-logo {
+  font-size: 15px;
+  text-align: left;
+  padding: 10px 100px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+  margin-bottom: 40px;
+  
+}
+
+.footer-list li {
+  padding: 11px 40px;
+
+}
